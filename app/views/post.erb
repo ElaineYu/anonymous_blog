@@ -1,0 +1,9 @@
+  <h1>  Congratulations on posting your blog on boxes!! </h1>
+
+    <p><%= @post.title%></p>
+    <p><%= @post.body%></p>
+    <p><%= @post.tag%></p>
+
+  <a href=<%= "/post/#{@post.id}/edit" %> >Edit blog</a>
+
+  <a href= "/posts" >All blogs</a>
